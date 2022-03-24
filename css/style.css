@@ -14,10 +14,22 @@
     height: 300px;
     object-fit: cover;
 }
+.profile-container{
+    height: 800px;
+    position: relative;
+}
+.profile-card{
+    background: white;
+    box-shadow: var(--custom-shadow);
+    overflow: hidden;
+    position: absolute;
+    top: -25%;
+    width: 90%;
+}
 .img-circle {
     border-radius: 100%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 
